@@ -13,11 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
-$(call inherit-product, device/samsung_slsi/arndale/device.mk)
+$(call inherit-product, device/samsung_slsi/arndale/full_arndale.mk)
 
-PRODUCT_NAME := full_arndale
-PRODUCT_DEVICE := arndale
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on Arndale
-PRODUCT_MANUFACTURER := samsung_slsi
+PRODUCT_NAME := aosp_arndale
